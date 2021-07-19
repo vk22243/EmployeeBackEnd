@@ -23,7 +23,7 @@ import net.guides.springboot2.springboot2jpacrudexample.exception.ResourceNotFou
 import net.guides.springboot2.springboot2jpacrudexample.model.Employee;
 import net.guides.springboot2.springboot2jpacrudexample.repository.EmployeeRepository;
 
-@CrossOrigin(origins = "http://localhost:4200")
+@CrossOrigin(origins = "http://localhost:4300")
 @RestController
 @RequestMapping("/api/v1")
 public class EmployeeController {
