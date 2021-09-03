@@ -72,4 +72,7 @@ public class EmployeeController {
 		response.put("deleted", Boolean.TRUE);
 		return response;
 	}
+	public void test(){
+		System.out.println("From test method updated");
+	}
 }
